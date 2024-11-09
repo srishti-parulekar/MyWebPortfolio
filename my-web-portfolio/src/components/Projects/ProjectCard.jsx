@@ -4,10 +4,10 @@ import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description},
+  project: { title, imageSrc, description, link},
 }) => {
   return (
-    <a href="">
+    <a href={link} className={styles.link}>
     <div className={styles.container}>
       <img
         src={getImageUrl(imageSrc)}
@@ -16,8 +16,7 @@ export const ProjectCard = ({
       />
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
-      <ul className={styles.skills}>
-      </ul>
+      
     </div>
     </a>
   );
