@@ -1,0 +1,70 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #fbdcec 0%, #967f8f 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  max-width: 345px;
+}
+.image {
+  margin-bottom: 26px;
+  width: 50%; /* Adjust the width to 80% of its parent container */
+  max-width: 300px; /* Optionally, set a maximum width */
+  height: auto; /* Ensures the aspect ratio is maintained */
+  display: block; /* Remove any extra space below the image */
+  margin-left: auto; /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
+}
+
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 20px;
+  font-weight: 350;
+  border-radius: 70px;
+  background: var(--color-dark);
+  padding: 2px 15px;
+}
+
+.links {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: #04152d;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 100px;
+  background: var(--color-primary);
+  padding: 1px 22px;
+  color: #04152d;
+}

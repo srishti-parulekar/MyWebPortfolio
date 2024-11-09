@@ -1,0 +1,20 @@
+[
+  {
+    "title": "WellNest",
+    "imageSrc": "projects/wellnest.jpeg",
+    "description": "Developed WellNest, a secure mental health platform with Spring Boot, React, and MySQL, featuring JWT authentication, RESTful APIs, and automated chat.",
+    "url": "https://github.com/srishti-parulekar/WellNest"
+  },
+  {
+    "title": "Readme AI",
+    "imageSrc": "projects/readme.png",
+    "description": "Built ReadMe AI, a learning platform that converts text to interactive videos with React, Django, 3D avatars, Azure TTS, JWT security, and AI-driven visuals and quizzes.",
+    "url": "https://github.com/saumay3105/ReadMe"
+  },
+  {
+    "title": "NGOLogs",
+    "imageSrc": "projects/ngologs.png",
+    "description": "Created NGOLogs, a Java Swing app with MySQL, allowing users to browse Pune NGOs, view missions, and donate or volunteer, with CRUD operations and PL/SQL data handling.",
+    "url": "https://github.com/srishti-parulekar/NGOLogs"
+  }
+]
